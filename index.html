@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GeoLocation Application</title>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYp1RkgWOe4KJWM9KnKuiC5jp1i0VszzA&libraries=places&callback=initialize"></script>
+	
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+<h1>Geolocation </h1>
+<section id="main">
+	<div class="dropboxContainer">
+		<div class="dropBoxFile">
+			<div id="dropBox">Drop files here!</div>
+			<input id="browse" type="file" onchange="processFiles(this.files)">
+		</div>
+	</div>	
+	<div class="results">
+		<p id="addressInfo"></p>
+		<p id="coordInfo"></p>
+		<p id="fileInfo">Please input coordinates.</p>
+		Lat: <input type="text" id="lat">
+		Long: <input type="text" id="long">
+		<input type="submit" value="Set Location" onclick="updateCurrent()"/><br><br>
+		<p> <p id="result"></p></p>
+</div>
+	
+		
+	
+	<br>
+<div id="map" class="c1"></div>
+</section>
+<footer>Geolocation - Hamzeh Jaafar </footer>
+<script src="geolocation.js"></script>
+</body>
+</html>

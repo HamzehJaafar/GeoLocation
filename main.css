@@ -1,0 +1,71 @@
+body {
+	background-color: #222930;
+	text-align:Center;
+}
+
+#main {
+	background-color: #4EB1BA;
+	border-color: #4682b4;
+	border-style: solid;
+	border-width: 6px;
+}
+#dropBox{
+
+margin-top; 10px;
+  margin-left:25%;
+	width: 50%;
+	height: 110px;
+	background-color: ‎#2157de;
+	padding: 40px 40px 50px 20px;
+	text-align: center;
+	border-color: #4682b4;
+	border-style: solid;
+	border-width: 2px;
+
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+#results {
+	width:50%;
+	height:1000px;
+	
+	
+}
+#map{
+	
+	padding-top:20px;
+	height: 400px;
+	width: 90%;
+	padding-top:10%;
+	margin:auto;	
+	border-color: #4682b4;
+	border-style: solid;
+	border-width: 3px;
+}
+h1 {
+		color:#E9E9E9; 
+	text-align:center;
+	font-size:32px;
+}
+footer {
+	text-align:center;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+
+    .col-m-1 {width: 8.33%;}
+
+}
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
